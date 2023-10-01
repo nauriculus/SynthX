@@ -1,0 +1,18 @@
+.wallet-buttons {
+    display: flex;
+    justify-content: flex-end; /* Align buttons to the right */
+    align-items: center; /* Vertically center buttons */
+    gap: 10px; /* Add some spacing between buttons */
+    margin-right: 300px;
+  }
+
+
+  .wallet-adapter-button{
+    border: 2px solid black !important;
+    background: rgb(39, 39, 39) !important;
+ }
+  
+ .wallet-adapter-button:hover {
+   border: 2px solid rgb(252, 252, 252) !important;
+   color: white !important;
+ }
